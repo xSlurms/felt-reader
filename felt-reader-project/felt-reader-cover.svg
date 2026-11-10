@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+  <defs>
+    <radialGradient id="felt" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#14513c"/>
+      <stop offset="55%" stop-color="#0f3d2e"/>
+      <stop offset="100%" stop-color="#08281d"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0bd63"/>
+      <stop offset="100%" stop-color="#b98f38"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- felt background -->
+  <rect width="1280" height="720" fill="url(#felt)"/>
+
+  <!-- subtle vignette border -->
+  <rect x="26" y="26" width="1228" height="668" rx="18" fill="none" stroke="#c9a24a" stroke-opacity="0.22" stroke-width="2"/>
+
+  <!-- faint felt stitch line -->
+  <rect x="40" y="40" width="1200" height="640" rx="12" fill="none" stroke="#c9a24a" stroke-opacity="0.10" stroke-width="1.5" stroke-dasharray="2 7"/>
+
+  <!-- faint background suits, very low opacity, hand-placed -->
+  <g fill="#c9a24a" opacity="0.05">
+    <text x="120" y="180" font-size="90" transform="rotate(-16 120 180)">&#9824;</text>
+    <text x="1120" y="150" font-size="70" transform="rotate(12 1120 150)">&#9829;</text>
+    <text x="150" y="620" font-size="64" transform="rotate(8 150 620)">&#9830;</text>
+    <text x="1130" y="600" font-size="80" transform="rotate(-10 1130 600)">&#9827;</text>
+  </g>
+
+  <!-- TITLE -->
+  <text x="640" y="212" text-anchor="middle" font-size="92" font-weight="700" letter-spacing="14" fill="url(#goldGrad)">FELT<tspan fill="#c9a24a" dx="6" dy="0" font-size="60"> &#183; </tspan>READER</text>
+
+  <!-- subtitle -->
+  <text x="640" y="270" text-anchor="middle" font-size="27" letter-spacing="8" fill="#e8e6df" opacity="0.92">A POKER DECISION TOOL</text>
+
+  <!-- thin gold divider -->
+  <line x1="500" y1="300" x2="780" y2="300" stroke="#c9a24a" stroke-opacity="0.5" stroke-width="1.5"/>
+
+  <!-- ===================== CARDS + CHIPS below ===================== -->
+
+  <!-- back card, angled left -->
+  <g filter="#cardShadow" transform="rotate(-13 470 500)">
+    <rect x="360" y="380" width="200" height="280" rx="16" fill="#f4f1e8" stroke="#d9d3c2" stroke-width="2"/>
+    <text x="392" y="440" font-size="52" font-weight="700" fill="#d6455a">A</text>
+    <text x="392" y="486" font-size="46" fill="#d6455a">&#9829;</text>
+    <text x="528" y="628" font-size="52" font-weight="700" fill="#d6455a" text-anchor="end" transform="rotate(180 528 612)">A</text>
+    <text x="528" y="580" font-size="46" fill="#d6455a" text-anchor="end" transform="rotate(180 528 566)">&#9829;</text>
+    <text x="460" y="540" font-size="96" fill="#d6455a" text-anchor="middle">&#9829;</text>
+  </g>
+
+  <!-- front card, angled right, overlapping -->
+  <g filter="#cardShadow" transform="rotate(9 700 510)">
+    <rect x="600" y="380" width="200" height="280" rx="16" fill="#f4f1e8" stroke="#d9d3c2" stroke-width="2"/>
+    <text x="632" y="440" font-size="52" font-weight="700" fill="#12332a">K</text>
+    <text x="632" y="486" font-size="46" fill="#12332a">&#9824;</text>
+    <text x="768" y="628" font-size="52" font-weight="700" fill="#12332a" text-anchor="end" transform="rotate(180 768 612)">K</text>
+    <text x="768" y="580" font-size="46" fill="#12332a" text-anchor="end" transform="rotate(180 768 566)">&#9824;</text>
+    <text x="700" y="540" font-size="96" fill="#12332a" text-anchor="middle">&#9824;</text>
+  </g>
+
+  <!-- ===================== poker chips ===================== -->
+  <!-- chip helper look: outer ring, dashed edge accents, inner ring -->
+
+  <!-- chip stack left -->
+  <g filter="#soft">
+    <!-- bottom chip -->
+    <ellipse cx="300" cy="600" rx="66" ry="20" fill="#a8323f"/>
+    <ellipse cx="300" cy="590" rx="66" ry="20" fill="#c23c4b"/>
+    <ellipse cx="300" cy="590" rx="66" ry="20" fill="none" stroke="#8f2733" stroke-width="2"/>
+    <!-- mid chip -->
+    <ellipse cx="300" cy="572" rx="66" ry="20" fill="#a8323f"/>
+    <ellipse cx="300" cy="562" rx="66" ry="20" fill="#c23c4b"/>
+    <ellipse cx="300" cy="562" rx="66" ry="20" fill="none" stroke="#8f2733" stroke-width="2"/>
+    <!-- top chip -->
+    <ellipse cx="300" cy="544" rx="66" ry="20" fill="#a8323f"/>
+    <ellipse cx="300" cy="534" rx="66" ry="20" fill="#c23c4b"/>
+    <ellipse cx="300" cy="534" rx="66" ry="20" fill="none" stroke="#8f2733" stroke-width="2.5"/>
+    <!-- top face edge marks -->
+    <g stroke="#f4f1e8" stroke-width="5" opacity="0.85">
+      <line x1="300" y1="516" x2="300" y2="524"/>
+      <line x1="366" y1="534" x2="358" y2="534"/>
+      <line x1="234" y1="534" x2="242" y2="534"/>
+      <line x1="347" y1="518" x2="342" y2="523"/>
+      <line x1="253" y1="518" x2="258" y2="523"/>
+    </g>
+    <ellipse cx="300" cy="534" rx="42" ry="12" fill="none" stroke="#f4f1e8" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- chip stack right -->
+  <g filter="#soft">
+    <ellipse cx="960" cy="612" rx="66" ry="20" fill="#0d3527"/>
+    <ellipse cx="960" cy="602" rx="66" ry="20" fill="#155a41"/>
+    <ellipse cx="960" cy="602" rx="66" ry="20" fill="none" stroke="#0a2c21" stroke-width="2"/>
+    <ellipse cx="960" cy="584" rx="66" ry="20" fill="#0d3527"/>
+    <ellipse cx="960" cy="574" rx="66" ry="20" fill="#155a41"/>
+    <ellipse cx="960" cy="574" rx="66" ry="20" fill="none" stroke="#0a2c21" stroke-width="2.5"/>
+    <g stroke="#c9a24a" stroke-width="5" opacity="0.9">
+      <line x1="960" y1="556" x2="960" y2="564"/>
+      <line x1="1026" y1="574" x2="1018" y2="574"/>
+      <line x1="894" y1="574" x2="902" y2="574"/>
+      <line x1="1007" y1="558" x2="1002" y2="563"/>
+      <line x1="913" y1="558" x2="918" y2="563"/>
+    </g>
+    <ellipse cx="960" cy="574" rx="42" ry="12" fill="none" stroke="#c9a24a" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- footer tag -->
+  <text x="640" y="690" text-anchor="middle" font-size="16" letter-spacing="4" fill="#c9a24a" opacity="0.55">EQUITY &#183; BOARD DANGER &#183; POT ODDS &#183; FREE</text>
+</svg>

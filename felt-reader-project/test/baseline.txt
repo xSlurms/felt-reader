@@ -1,0 +1,97 @@
+preflop AA no bet | — | 85% | - | - | - | - | 97 | 0 | 0
+preflop AA pot | 3-BET | 85% | - | - | - | - | 760 | 0 | 0
+preflop 72o pot | FOLD | 35% | - | - | - | - | 533 | 0 | 0
+preflop 72o half | FOLD | 35% | - | - | - | - | 547 | 0 | 0
+preflop J3o pot | FOLD | 44% | - | - | - | - | 532 | 0 | 0
+preflop AKs vs3 half | 3-BET | 41% | - | - | - | - | 926 | 0 | 0
+flop top pair dry | CALL | 82% | - | One pair | - | - | 150 | 0 | 0
+flop bottom pair monotone | FOLD | 40% | ⚠ flush+⚠ overcards+⚠ 49% of their range is ahead | One pair | - | - | 226 | 378 | 0
+flop weak 2pair paired | MARGINAL | 34% | ⚠ full house+⚠ 63% of their range is ahead | Two pair | - | - | 261 | 194 | 0
+river weak 2pair 3barrel | FOLD | 14% | ⚠ full house+⚠ 85% of their range is ahead | Two pair | - | - | 160 | 372 | 165
+playing the board | MARGINAL | 50% | ⚠ playing the board | Royal flush — on board, not yours | - | - | 261 | 391 | 0
+flop flush draw | CALL | 54% | - | High card | 9 outs | Flush draw 9 | 150 | 0 | 0
+flop OESD | CALL | 32% | - | High card | 8 outs | Open-ended straight draw 8 | 85 | 0 | 0
+river bluff catch | FOLD | 11% | ⚠ 89% of their range is ahead | High card | - | - | 160 | 0 | 0
+strong hand no bet | BET | 99% | ⚠ flush draw | Three of a kind | - | - | 184 | 0 | 0
+underpair 2 overcards | CALL | 44% | ⚠ flush draw+⚠ overcards+⚠ 52% of their range is ahead | One pair | 2 outs | Set draw 2 | 186 | 219 | 0
+turn two-tone duplicate | FOLD | 26% | ⚠ flush draw+⚠ straight+⚠ overcards+⚠ 74% of their range is ahead | One pair | 6 outs | Gutshot straight draw 4+Set draw 2 | 229 | 314 | 0
+adv flop call turn bet | CALL | 62% | - | One pair | - | - | 150 | 0 | 121
+multiway flop opp4 | CALL | 82% | - | One pair | - | - | 150 | 0 | 0
+overbet vs trips | CALL | 98% | - | Three of a kind | - | - | 150 | 0 | 0
+non-nut flush river | CALL | 100% | - | Flush | - | - | 151 | 0 | 0
+weak hand air flop | FOLD | 6% | ⚠ straight+⚠ 97% of their range is ahead | High card | - | - | 159 | 199 | 0
+non-nut flush river 2 | CALL | 98% | ⚠ not the nuts | Flush | - | - | 186 | 0 | 0
+non-nut straight | CALL | 91% | ⚠ not the nuts | Straight | - | - | 186 | 0 | 0
+worst boat on trips board | FOLD | 32% | ⚠ not the nuts+⚠ 62% of their range is ahead | Full house | - | - | 160 | 0 | 0
+kickers only on trips | FOLD | 39% | ⚠ full house+⚠ 63% of their range is ahead+⚠ board hand, kickers only | Three of a kind — that's the board, you have kickers | - | - | 223 | 324 | 0
+quads on trips board | CALL | 100% | - | Four of a kind | - | - | 151 | 0 | 0
+small 2pair paired board | MARGINAL | 26% | ⚠ full house+⚠ 72% of their range is ahead | Two pair | 2 outs | Set draw 2 | 137 | 194 | 0
+trips good kicker | CALL | 91% | ⚠ full house | Three of a kind | - | - | 186 | 165 | 0
+top set unpaired | CALL | 99% | - | Three of a kind | - | - | 150 | 0 | 0
+boat on double-paired | CALL | 43% | ⚠ not the nuts+⚠ 46% of their range is ahead | Full house | - | - | 186 | 0 | 0
+nut straight | CALL | 98% | - | Straight | - | - | 150 | 0 | 0
+open AA early | OPEN | 85% | - | - | - | - | 568 | 0 | 0
+open AJo early | MARGINAL | 63% | - | - | - | - | 540 | 0 | 0
+open AJo cutoff | OPEN | 63% | - | - | - | - | 575 | 0 | 0
+open 76o early | FOLD | 43% | - | - | - | - | 442 | 0 | 0
+open 76o button | OPEN | 43% | - | - | - | - | 554 | 0 | 0
+open K5o button | OPEN | 53% | - | - | - | - | 554 | 0 | 0
+open 72o button | FOLD | 35% | - | - | - | - | 435 | 0 | 0
+open 55 middle | OPEN | 61% | - | - | - | - | 503 | 0 | 0
+open A9s small blind | OPEN | 62% | - | - | - | - | 658 | 0 | 0
+open KQo big blind | NOTHING TO DO | 61% | - | - | - | - | 367 | 0 | 0
+open J9s middle marginal | OPEN | 55% | - | - | - | - | 504 | 0 | 0
+defend 86s BB min-raise | CALL | 46% | - | - | - | - | 452 | 0 | 0
+defend T7o BB min-raise | CALL | 48% | - | - | - | - | 452 | 0 | 0
+defend K5o BB min-raise | MARGINAL | 53% | - | - | - | - | 613 | 0 | 0
+defend 72o BB min-raise | FOLD | 35% | - | - | - | - | 453 | 0 | 0
+defend 86s BB 3x | CALL | 46% | - | - | - | - | 466 | 0 | 0
+defend K9o BB 3x | MARGINAL | 57% | - | - | - | - | 654 | 0 | 0
+defend K9o BB 4x | FOLD | 57% | - | - | - | - | 452 | 0 | 0
+defend AKo BB 3x | 3-BET | 65% | - | - | - | - | 695 | 0 | 0
+defend QTo SB 3x | MARGINAL | 56% | - | - | - | - | 630 | 0 | 0
+defend 55 SB 3x | CALL | 61% | - | - | - | - | 425 | 0 | 0
+defend J9s cutoff 3x | CALL | 55% | - | - | - | - | 421 | 0 | 0
+defend QTo button 3x | MARGINAL | 56% | - | - | - | - | 580 | 0 | 0
+defend QTo button 2.5x | MARGINAL | 56% | - | - | - | - | 580 | 0 | 0
+defend QTo middle 3x | MARGINAL | 56% | - | - | - | - | 556 | 0 | 0
+defend QTo no seat 3x | MARGINAL | 56% | - | - | - | - | 634 | 0 | 0
+defend K9o button 3x | FOLD | 57% | - | - | - | - | 463 | 0 | 0
+defend 54s button min | CALL | 42% | - | - | - | - | 407 | 0 | 0
+defend AKs middle 5x | 3-BET | 67% | - | - | - | - | 716 | 0 | 0
+defend 99 cutoff 5x | CALL | 72% | - | - | - | - | 438 | 0 | 0
+defend 86s BB 3x 1caller | FOLD | 32% | - | - | - | - | 615 | 0 | 0
+defend J9s BB 3x 2callers | MARGINAL | 32% | - | - | - | - | 778 | 0 | 0
+limp AJo cutoff 1 | RAISE | 63% | - | - | - | - | 550 | 0 | 0
+limp AJo cutoff 3 | RAISE | 63% | - | - | - | - | 550 | 0 | 0
+limp 54s cutoff 1 | RAISE | 42% | - | - | - | - | 550 | 0 | 0
+limp 54s cutoff 3 | MARGINAL | 42% | - | - | - | - | 591 | 0 | 0
+limp J7o cutoff 1 | FOLD | 49% | - | - | - | - | 414 | 0 | 0
+limp 54s early 1 | FOLD | 42% | - | - | - | - | 427 | 0 | 0
+limp T9s BB 1 | RAISE | 54% | - | - | - | - | 618 | 0 | 0
+limp 72o BB 1 | CHECK | 35% | - | - | - | - | 423 | 0 | 0
+limp 72o button 1 | FOLD | 35% | - | - | - | - | 415 | 0 | 0
+limp 55 no seat 2 | MARGINAL | 61% | - | - | - | - | 629 | 0 | 0
+limp 55 middle 2 | MARGINAL | 61% | - | - | - | - | 616 | 0 | 0
+limp 76o button 2 | MARGINAL | 43% | - | - | - | - | 580 | 0 | 0
+reraise AA button 3x | RE-RAISE | 85% | - | - | - | - | 666 | 0 | 0
+reraise 99 button 3x | CALL | 72% | - | - | - | - | 570 | 0 | 0
+reraise AJo button 3x | MARGINAL | 63% | - | - | - | - | 593 | 0 | 0
+reraise KQo button 3x | CALL | 61% | - | - | - | - | 571 | 0 | 0
+reraise T9s button 3x | CALL | 54% | - | - | - | - | 572 | 0 | 0
+reraise T9s BB 3x | MARGINAL | 54% | - | - | - | - | 595 | 0 | 0
+reraise AJo button 5x | FOLD | 63% | - | - | - | - | 538 | 0 | 0
+reraise 86s cutoff 3x | FOLD | 46% | - | - | - | - | 541 | 0 | 0
+reraise AKs no seat 3x | RE-RAISE | 67% | - | - | - | - | 671 | 0 | 0
+raised called AKo early | ON TO THE FLOP | 65% | - | - | - | - | 478 | 0 | 0
+raised called 76o early | ON TO THE FLOP | 43% | - | - | - | - | 553 | 0 | 0
+raised called 76o button | ON TO THE FLOP | 43% | - | - | - | - | 475 | 0 | 0
+raised called AKo no seat | ON TO THE FLOP | 65% | - | - | - | - | 357 | 0 | 0
+K72 toppair pf not recorded | CALL | 79% | - | One pair | - | - | 150 | 0 | 0
+K72 toppair pf limped | CALL | 81% | - | One pair | - | - | 150 | 0 | 331
+K72 toppair pf they raised | CALL | 74% | - | One pair | - | - | 150 | 0 | 0
+K72 toppair pf they 3bet | CALL | 70% | - | One pair | - | - | 150 | 0 | 266
+K72 toppair pf I raised | CALL | 78% | - | One pair | - | - | 150 | 0 | 0
+T85 secondpair pf not rec | CALL | 51% | ⚠ overcard+⚠ 47% of their range is ahead | One pair | - | - | 186 | 218 | 0
+T85 secondpair pf limped | CALL | 53% | ⚠ overcard+⚠ 44% of their range is ahead | One pair | - | - | 186 | 218 | 331
+T85 secondpair pf they 3bet | MARGINAL | 38% | ⚠ overcard+⚠ 61% of their range is ahead | One pair | - | - | 261 | 218 | 266

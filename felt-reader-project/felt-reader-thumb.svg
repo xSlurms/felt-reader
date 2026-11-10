@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+  <defs>
+    <radialGradient id="feltT" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#14513c"/>
+      <stop offset="55%" stop-color="#0f3d2e"/>
+      <stop offset="100%" stop-color="#08281d"/>
+    </radialGradient>
+    <linearGradient id="goldGradT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0bd63"/>
+      <stop offset="100%" stop-color="#b98f38"/>
+    </linearGradient>
+    <filter id="softT" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="cardShadowT" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="13" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#feltT)"/>
+  <rect x="22" y="22" width="756" height="756" rx="18" fill="none" stroke="#c9a24a" stroke-opacity="0.22" stroke-width="2"/>
+  <rect x="34" y="34" width="732" height="732" rx="12" fill="none" stroke="#c9a24a" stroke-opacity="0.10" stroke-width="1.5" stroke-dasharray="2 7"/>
+
+  <!-- faint suits -->
+  <g fill="#c9a24a" opacity="0.05">
+    <text x="90" y="180" font-size="80" transform="rotate(-16 90 180)">&#9824;</text>
+    <text x="660" y="160" font-size="64" transform="rotate(12 660 160)">&#9829;</text>
+    <text x="110" y="700" font-size="60" transform="rotate(8 110 700)">&#9830;</text>
+    <text x="670" y="690" font-size="72" transform="rotate(-10 670 690)">&#9827;</text>
+  </g>
+
+  <!-- TITLE stacked for square -->
+  <text x="400" y="212" text-anchor="middle" font-size="92" font-weight="700" letter-spacing="10" fill="url(#goldGradT)">FELT</text>
+  <text x="400" y="304" text-anchor="middle" font-size="92" font-weight="700" letter-spacing="6" fill="url(#goldGradT)">READER</text>
+  <text x="400" y="356" text-anchor="middle" font-size="22" letter-spacing="6" fill="#e8e6df" opacity="0.92">A POKER DECISION TOOL</text>
+  <line x1="290" y1="384" x2="510" y2="384" stroke="#c9a24a" stroke-opacity="0.5" stroke-width="1.5"/>
+
+  <!-- cards -->
+  <g filter="#cardShadowT" transform="rotate(-13 300 560)">
+    <rect x="212" y="452" width="176" height="248" rx="15" fill="#f4f1e8" stroke="#d9d3c2" stroke-width="2"/>
+    <text x="240" y="506" font-size="46" font-weight="700" fill="#d6455a">A</text>
+    <text x="240" y="548" font-size="40" fill="#d6455a">&#9829;</text>
+    <text x="360" y="682" font-size="46" font-weight="700" fill="#d6455a" text-anchor="end" transform="rotate(180 360 668)">A</text>
+    <text x="300" y="600" font-size="84" fill="#d6455a" text-anchor="middle">&#9829;</text>
+  </g>
+  <g filter="#cardShadowT" transform="rotate(9 500 570)">
+    <rect x="412" y="452" width="176" height="248" rx="15" fill="#f4f1e8" stroke="#d9d3c2" stroke-width="2"/>
+    <text x="440" y="506" font-size="46" font-weight="700" fill="#12332a">K</text>
+    <text x="440" y="548" font-size="40" fill="#12332a">&#9824;</text>
+    <text x="560" y="682" font-size="46" font-weight="700" fill="#12332a" text-anchor="end" transform="rotate(180 560 668)">K</text>
+    <text x="500" y="600" font-size="84" fill="#12332a" text-anchor="middle">&#9824;</text>
+  </g>
+
+  <!-- red chip stack left -->
+  <g filter="#softT">
+    <ellipse cx="170" cy="660" rx="58" ry="18" fill="#a8323f"/>
+    <ellipse cx="170" cy="650" rx="58" ry="18" fill="#c23c4b"/>
+    <ellipse cx="170" cy="650" rx="58" ry="18" fill="none" stroke="#8f2733" stroke-width="2"/>
+    <ellipse cx="170" cy="632" rx="58" ry="18" fill="#a8323f"/>
+    <ellipse cx="170" cy="622" rx="58" ry="18" fill="#c23c4b"/>
+    <ellipse cx="170" cy="622" rx="58" ry="18" fill="none" stroke="#8f2733" stroke-width="2.5"/>
+    <g stroke="#f4f1e8" stroke-width="5" opacity="0.85">
+      <line x1="170" y1="606" x2="170" y2="613"/>
+      <line x1="228" y1="622" x2="221" y2="622"/>
+      <line x1="112" y1="622" x2="119" y2="622"/>
+    </g>
+    <ellipse cx="170" cy="622" rx="37" ry="11" fill="none" stroke="#f4f1e8" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- green chip stack right -->
+  <g filter="#softT">
+    <ellipse cx="640" cy="672" rx="58" ry="18" fill="#0d3527"/>
+    <ellipse cx="640" cy="662" rx="58" ry="18" fill="#155a41"/>
+    <ellipse cx="640" cy="662" rx="58" ry="18" fill="none" stroke="#0a2c21" stroke-width="2.5"/>
+    <g stroke="#c9a24a" stroke-width="5" opacity="0.9">
+      <line x1="640" y1="646" x2="640" y2="653"/>
+      <line x1="698" y1="662" x2="691" y2="662"/>
+      <line x1="582" y1="662" x2="589" y2="662"/>
+    </g>
+    <ellipse cx="640" cy="662" rx="37" ry="11" fill="none" stroke="#c9a24a" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <text x="400" y="760" text-anchor="middle" font-size="15" letter-spacing="3" fill="#c9a24a" opacity="0.55">EQUITY &#183; BOARD DANGER &#183; POT ODDS &#183; FREE</text>
+</svg>
